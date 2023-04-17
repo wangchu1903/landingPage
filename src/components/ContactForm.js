@@ -151,16 +151,19 @@ const ContactForm = () => {
         <AddressContainer>
           <AddressItem>
             <Icon src={Map} />
-            <Text>Gokarneshwor,Kathmandu,Nepal</Text>
+            <Text>Gokarneshwor-09,Kathmandu,Nepal</Text>
           </AddressItem>
           <AddressItem>
             <Icon src={Phone} />
-            <Text>+977- 9808103846</Text>
+            <Text>977-01-4917563</Text>
+
+            <Text>977-9808103846</Text>
 
           </AddressItem>
           <AddressItem>
             <Icon src={Send} />
-            <Text>nima_wwe@hotmail.com</Text>
+            <Text>gyalporugsandcrafts@gmail.com</Text>
+
           </AddressItem>
         </AddressContainer>
       </Wrapper>
@@ -169,3 +172,4 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
