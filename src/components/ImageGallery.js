@@ -4,22 +4,21 @@ import { GalleryData } from '../data/GalleryData'
 
 const ImagesContainer = styled.div`
   display: flex;
-  padding-top: 30px;
+  padding-top: 20px;
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   row-gap: 2em;
-  column-gap: 10px;
+  column-gap: 20px;
 `;
 
 const Image = styled.img`
-    padding-top: 30px;
     height: 500px;
+    width:600px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         
 `
-
 const ImageGallery = () => {
     return (
         <ImagesContainer>

@@ -35,7 +35,7 @@ function App() {
       <Menu isOpen={isOpen} toggle={toggle} />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/design' element={<Gallery />} />
+        <Route path='/customer' element={<Gallery />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/about' element={<About />} />
       </Routes>
